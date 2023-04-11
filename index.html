@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHERISH</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Rajdhani:wght@300;600&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Libre Baskerville', serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/c.jpg');
+            height: 1280px;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            position: absolute;
+            left: 33px;
+            top: 12px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 60 px;
+            height: 60px;
+        }
+
+        .left1 {
+            position: absolute;
+            left: 100px;
+            top: 25px;
+            display: inline-block;
+            font-size: xx-large;
+        }
+
+        .mid {
+            display: block;
+            margin: 12px auto;
+            width: 40%
+        }
+
+        .right {
+            position: absolute;
+            right: 33px;
+            top: 12px;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+
+            text-decoration: underline;
+            color: grey
+        }
+
+        .btn {
+            margin: 0px 10px;
+            background-color: rgb(60 21 6);
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Libre Baskerville', serif;
+
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container1 h1 {
+            float: left;
+            color: black;
+            width: 38%;
+            margin: 202px 115px;
+            padding: 37px 20px;
+        }
+
+        .container1 p {
+            float: left;
+            font-size: large;
+            color: black;
+            width: 30%;
+            margin: 294px -730px;
+            padding: 37px 20px;
+        }
+
+        .container {
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 125px 816px;
+            padding: 38px 45px;
+            width: 36%;
+        }
+
+        .container h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .formgroup input {
+            font-family: 'Libre Baskerville', serif;
+            font-size: large;
+            text-align: center;
+            display: block;
+            width: 391px;
+            padding: 6px;
+            border: 3px solid black;
+            margin: 11px auto;
+            border-radius: 10px;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 44px 72px;
+            padding: 12px 153px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/cmr.jpg" alt="">
+        </div>
+        <div class="left1">
+            CHERISH 2K23
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">SIGNUP</button>
+            <button class="btn">LOGIN</button>
+        </div>
+    </header>
+    <div class="container1">
+        <h1>Participate and win exciting prizes</h1>
+        <p>
+            Registration closed on:25/03/23<br>
+            Hurry up!
+        </p>
+    </div>
+    <div class="container">
+        <h2>REGISTER NOW!</h2>
+        <form>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your roll no">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your dept">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your year">
+            </div>
+            <button class="btn"> SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
